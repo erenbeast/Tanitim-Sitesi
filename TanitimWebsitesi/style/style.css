@@ -1,0 +1,1215 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbarcontainer{
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 0.8%;
+	display: block;
+}
+.baslik{
+	width: 100%;
+	height: auto;
+}
+.ana{
+	width: 100%;
+	height: auto;
+	
+}
+.anacontainer{
+	padding: 5% 20%;
+	max-width: 60%;
+	height: auto;
+}
+.anacontainerr{
+	padding: 1% 0 0;
+	height: auto;
+}
+.icyazicontainer{
+	width: 100%;
+	display:block;
+	height: auto;
+}
+.yazi{
+	width: 46%;
+	margin: auto;
+	color: #fff;
+	display: block;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.yazi p{
+	margin-top: -3%;
+	font-size: 1.2rem;
+    font-weight: 350;
+}
+.fotoicyazi{
+	float: left;
+	width: 46%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.fotoicyazi img{
+	height: 100%;
+	width: 100%;
+}
+.baslikh1{
+	font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+	color: white;
+	font-family: "PT Serif", Georgia, serif;
+}
+.navigasyonbar{
+	width: 100%;
+	display: block;
+}
+.button {
+  background-color:#0F0D11;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buttonblack {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 10px;
+}
+.bosluk{
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+}
+
+.buttonblack:hover {
+  background-color: #555555;
+  color: white;
+}
+.backgroundtemplate{
+	background-image: url("../images/shape-hero.svg"), linear-gradient(rgb(17, 15, 36) 0%, rgb(5, 5, 11) 100%);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: initial;
+	height: auto;
+	display: block;
+}
+.backgroundtemplatee{
+	background-color: white;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: initial;
+	height: auto;
+}
+.backgroundtemplateee{
+	background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(246, 246, 249) 100%);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: initial;
+	height: auto;
+}
+.backgroundtemplateeee{
+	background-image: url("../images/shape-hero.svg"), linear-gradient(rgb(17, 15, 36) 0%, rgb(5, 5, 11) 100%);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: initial;
+	height: auto;
+}
+.ustkisim{
+	width: 100%;
+	margin-right: 3%;
+	text-align: center;
+}
+.ustkisim h2{
+	text-align: center;
+	font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+	font-family: "PT Serif", Georgia, serif;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	display: block;
+	color: white;
+}
+.yazilar{
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	font-size: 1.02rem;
+	font-weight: 500;
+	color: white;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.yazilarr{
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 2rem;
+	text-align: center;
+	color: white;
+}
+.yazilarleft{
+	width: 48%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+}
+.yazilarright{
+	width: 48%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+}
+.halensoru{
+	background-color: rgba(246, 246, 249, 0.8);
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	/*box-shadow: 0 8px 6px -6px black;*/
+}
+.halensoru img{
+	width: 40%;
+	height: auto;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.halensoru h2{
+	font-family: "PT Serif", Georgia, serif;
+	color:#110f24;
+	font-size: 2em;
+}
+.dosyalama{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: auto;
+}
+.navbarlinks {
+	width: 83%;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 2%;
+}
+.navbarlinks a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbarlinks a:hover {
+  color: grey;
+  transition: color 1s;
+}
+.navbarlinkss {
+  overflow: hidden;
+  text-align: center;
+  padding-left: 2%;
+}
+.navbarlinkss a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbarlinkss a:hover {
+  color: grey;
+  transition: color 1s;
+}
+
+.navfoto{
+	width: 15%;
+	float: left;
+}
+.navfoto a {
+	color: black;
+}
+.basliklogo{
+	width: 100%;
+	height: auto;
+}
+.whitebg{
+	background-color: #f6f6f9;
+}
+.aboutprojects{
+	width: 100%;
+	height: auto;
+	background-color: #f6f6f9;
+}
+.aboutaccordion{
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(rgb(17, 15, 36, 0.9) 0%, rgb(5, 5, 11, 1) 100%);
+	opacity: 1;
+}
+.ProjectsText{
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 2%;
+	text-align: center;
+	padding-bottom: 2%;
+}
+.ProjectsText h2{
+	font-size: 3.75rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+	font-family: "PT Serif", Georgia, serif;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	display: block;
+	width: 100%;
+}
+.ProjectsText p{
+	margin-top: -2%;
+	line-height: 2rem;
+	font-size: 1.3rem;
+}
+.ProjectsText img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.AccordionSide{
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 2%;
+	text-align: center;
+	padding-bottom: 2%;
+	
+}
+.AccordionSide p{
+	
+}
+.blackbg{
+	background-image: linear-gradient(rgb(17, 15, 36) 0%, rgb(5, 5, 11) 100%);
+}
+.UsingPrograms{
+	background-image: linear-gradient(rgb(17, 15, 36) 0%, rgb(5, 5, 11) 100%);
+	width: 100%;
+	height: auto;
+}
+.UsingProgramsText{
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.UsingProgramsText h2{
+	font-size: 2rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+	font-family: "PT Serif", Georgia, serif;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	display: block;
+	color: #fff;
+}
+.UsingProgramsText p{
+	margin-top: -2%;
+	line-height: 2rem;
+	font-size: 1.3rem;
+	color: #fff;
+}
+.UsingProgramsText img{
+	width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.ProgramList{
+	width: 100%;
+}
+.ProgramList img{
+	padding-top: 2%;
+	max-height: 130px;
+}
+.footerbg{
+	background-image: linear-gradient(140deg, rgb(0, 215, 175) 25%, rgb(87, 91, 222) 100%);
+}
+.footer{
+	background-image: linear-gradient(140deg, rgb(0, 215, 175) 25%, rgb(87, 91, 222) 100%);
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.footerbottom{
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.iletisimbar{
+	width: 100%;
+	background-color: rgb(29, 26, 61);
+	border-radius: 8px;
+	margin-right: auto;
+    margin-left: auto;
+}
+.iletisimleft{
+	width: 70%;
+	margin-left: 2%;
+}
+.iletisimleft h3{
+	font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+	font-family: "PT Serif", Georgia, serif;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	color: #fff;
+}
+.iletisimleft p{
+	margin-top: -2%;
+	line-height: 2rem;
+	font-size: 1.3rem;
+	color: #e4e4e8;
+}
+.iletisimright{
+	width: 25%;
+	height: auto;
+	color: #fff;
+}
+/* BUTON TASARIMLARIM */
+.buttonn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-weight: 700;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1.25rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonn.button-s {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 0.75rem;
+}
+
+.buttonn.button-m {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.buttonn.button-l {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-weight: 700;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  padding: 0 1.5rem;
+}
+
+.buttonn.buttonbottom {
+  background: #393ed8;
+  background: -webkit-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  background: -moz-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  background: -ms-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  background: -o-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  background: linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.buttonn.buttonbottom:hover {
+  background: #575bde;
+  background: -webkit-linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  background: -moz-linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  background: -ms-linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  background: -o-linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  background: linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+.botfooter{
+	width: 100%;
+	background-image: linear-gradient(rgb(17, 15, 36) 0%, rgb(5, 5, 11) 100%);
+}
+.botwrite{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	width: 70%;
+	color:white;
+}
+.containerfooter{
+	width: 60%;
+	margin: auto;
+}
+.footerblack{
+	width: 100%;
+	text-align: center;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+	color: white;
+}
+.footerlinks {
+  overflow: hidden;
+  text-align: center;
+}
+.footerlinks a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footerblack p{
+
+}
+.footerlinks a:hover {
+  color: grey;
+  transition: color 1s;
+}
+.ortalafooter{
+	color: white;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;	
+	text-decoration: none;
+	height: auto;
+}
+.teksutun{
+	width: 25%;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+}
+.teksutun li{
+	list-style: none;
+	text-align: center;
+}
+.teksutun ul{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.teksutun a{
+	color: white;
+	text-decoration: none;
+}
+.ikisutun{
+	float: left;
+	width: 50%;
+	text-decoration: none;
+}
+.iletisimmap{
+	height: auto;
+	box-shadow: 0 8px 6px -6px black;
+}
+.iletisimformu{
+	margin-top: 1%;
+	height: auto;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containeriletisim {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+  background: #030005;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50% , -50%);
+      -ms-transform: translate(-50% , -50%);
+          transform: translate(-50% , -50%);
+  font-size: 224px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -12px;
+  color: #030005;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+  letter-spacing: -20px;
+}
+
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px #8400ff;
+  letter-spacing: 13px;
+  margin: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff005a;
+  text-decoration: none;
+  border: 2px solid;
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #8400ff;
+}
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-404 h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+      font-size: 182px;
+  }
+}
+
+.accordion {
+  margin-top: 5px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: solid 0px transparent;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.active{
+  background-color: #ccc;
+  border: solid 0px transparent;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.accordion:hover{
+	background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border: solid 0px transparent;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropdown{
+	display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.UsingProgramsText img{
+		width: 100%;
+    	height: 100%;
+    	border-radius: 10px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+	}
+	.UsingProgramsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	.ProjectsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.yazilarr{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		font-size: 1.25rem;
+		font-weight: 400;
+		letter-spacing: 0.3px;
+		line-height: 2rem;
+		text-align: center;
+		color: white;
+	}
+	.AccordionSide{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.teksutun{
+		width: 50%;
+		text-decoration: none;
+		float: left;
+		text-align: center;
+	}
+	.teksutun li{
+		list-style: none;
+		text-align: center;
+	}
+	.teksutun ul{
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 0px;
+	}
+	.teksutun a{
+		color: white;
+		text-decoration: none;
+	}
+	.ikisutun{
+		float: left;
+		width: 100%;
+		text-decoration: none;
+	}
+  	.navbarlinks{
+		display: none;
+	}
+	.test{
+		display: none;
+	}
+	.yazi{
+		width: 96%;
+		margin: auto;
+		color: #fff;
+		display: block;
+		float: left;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.fotoicyazi{
+		float: left;
+		width: 96%;
+		padding-top:1%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.ProjectsText h2{
+		font-size: 2.00rem;
+		font-weight: 900;
+		line-height: 3.75rem;
+		font-family: "PT Serif", Georgia, serif;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		display: block;
+		width: 100%;
+	}
+	.dropbtn {
+	  background-color: #3498DB;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: #2980B9;
+	}
+
+	.dropdown {
+	  padding-left: 2%;
+	  height: 10px;
+	  float: left;
+	  position: relative;
+	  display: inline-block;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 160px;
+	  overflow: auto;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown a:hover {background-color: #ddd;}
+
+	.show {display: block;}
+	.navbarcontainer{
+		width: 96%;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding-top: 0.8%;
+		margin-bottom: 5%;
+		display: block;
+	}
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+ 	.UsingProgramsText img{
+		width: 100%;
+    	height: 100%;
+    	border-radius: 10px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+	}
+	.UsingProgramsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	.ProjectsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.yazilarr{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		font-size: 1.25rem;
+		font-weight: 400;
+		letter-spacing: 0.3px;
+		line-height: 2rem;
+		text-align: center;
+		color: white;
+	} 	
+  	.navbarlinks{
+		display: none;
+	}
+	.test{
+		display: none;
+	}
+	.AccordionSide{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.yazi{
+		width: 96%;
+		margin: auto;
+		color: #fff;
+		display: block;
+		float: left;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.fotoicyazi{
+		float: left;
+		width: 96%;
+		padding-top:1%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.ProjectsText h2{
+		font-size: 2.00rem;
+		font-weight: 900;
+		line-height: 3.75rem;
+		font-family: "PT Serif", Georgia, serif;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		display: block;
+		width: 100%;
+	}
+	.teksutun{
+		width: 100%;
+		text-decoration: none;
+		float: left;
+		text-align: center;
+	}
+	.teksutun li{
+		list-style: none;
+		text-align: center;
+	}
+	.teksutun ul{
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 0px;
+	}
+	.teksutun a{
+		color: white;
+		text-decoration: none;
+	}
+	.ikisutun{
+		float: left;
+		width: 100%;
+		text-decoration: none;
+	}
+	.dropbtn {
+	  background-color: #3498DB;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: #2980B9;
+	}
+
+	.dropdown {
+		padding-left: 2%;
+	  float: left;
+	  position: relative;
+	  display: inline-block;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 160px;
+	  overflow: auto;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown a:hover {background-color: #ddd;}
+
+	.show {display: block;}
+	.navbarcontainer{
+		width: 96%;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding-top: 0.8%;
+		margin-bottom: 5%;
+		display: block;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.UsingProgramsText img{
+		width: 100%;
+    	height: 100%;
+    	border-radius: 10px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+	}
+	.UsingProgramsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	.ProjectsText{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.yazilarr{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		font-size: 1.25rem;
+		font-weight: 400;
+		letter-spacing: 0.3px;
+		line-height: 2rem;
+		text-align: center;
+		color: white;
+	}
+	.AccordionSide{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 2%;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.teksutun{
+		width: 100%;
+		text-decoration: none;
+		float: left;
+		text-align: center;
+	}
+	.teksutun li{
+		list-style: none;
+		text-align: center;
+	}
+	.teksutun ul{
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 0px;
+	}
+	.teksutun a{
+		color: white;
+		text-decoration: none;
+	}
+	.ikisutun{
+		float: left;
+		width: 100%;
+		text-decoration: none;
+	}
+  	.navbarlinks{
+		display: none;
+	}
+	.test{
+		display: none;
+	}
+	.yazi{
+		width: 96%;
+		margin: auto;
+		color: #fff;
+		display: block;
+		float: left;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.fotoicyazi{
+		float: left;
+		width: 96%;
+		padding-top:1%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.ProjectsText h2{
+		font-size: 1.50rem;
+		font-weight: 900;
+		line-height: 3.75rem;
+		font-family: "PT Serif", Georgia, serif;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		display: block;
+		width: 100%;
+	}
+	.dropbtn {
+	  background-color: #3498DB;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: #2980B9;
+	}
+
+	.dropdown {
+		padding-left: 2%;
+	  float: left;
+	  position: relative;
+	  display: inline-block;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 160px;
+	  overflow: auto;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown a:hover {background-color: #ddd;}
+
+	.show {display: block;}
+	.navbarcontainer{
+		width: 96%;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding-top: 0.8%;
+		margin-bottom: 5%;
+		display: block;
+	}
+}
